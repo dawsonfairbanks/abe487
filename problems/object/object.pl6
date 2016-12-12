@@ -19,9 +19,9 @@ class Plant {
     
     }
 
-    my Plant $plant1 .= new(type => Rose, color => Pink, year => 2016, person => 'Julie Gold', site => Meadow);
-    my Plant $plant2 .= new(type => Sunflower, color => Yellow, year => 2000, owner => 'LaFonda Schenk', site => Valley);
-    my Plant $plant3 .= new(type => Tree, color => Green, year => 2005, owner => 'Alber Foss', site => Mountain);
+    my Plant $plant1 .= new(type => Rose, color => Pink, year => 1960, person => 'Julie Gold', site => Meadow);
+    my Plant $plant2 .= new(type => Sunflower, color => Yellow, year => 1920, owner => 'LaFonda Schenk', site => Valley);
+    my Plant $plant3 .= new(type => Tree, color => Green, year => 1934, owner => 'Alber Foss', site => Mountain);
 
 
     for $plant1, $plant2, $plant3 {
